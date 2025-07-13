@@ -1,0 +1,17 @@
+.vscode/
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+!lib/*.dll
+!lib/*.so
+!lib/*.dylib
+!lib/*.jar
+build/
+*.class
+*.o
+*.obj
+.DS_Store
+sources.txt
