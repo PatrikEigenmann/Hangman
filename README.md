@@ -2,11 +2,7 @@
 
 ## About
 
-## About
-
-Please describe your project here.
-
-This section is intended to give a short overview of your application's purpose, scope, and key features. Try to keep it concise and informative.
+The classic game Hangman offers a hands-on way to explore the MVC design pattern. By separating Word (Model), GUI (View), and game logic (Controller), this project helps put the concept into practice using Java Swing. I'm building it not just to play—but to learn.
 
 ## Folder Structure
 

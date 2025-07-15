@@ -25,6 +25,7 @@ import javax.swing.SwingUtilities;
 
 /* Hangman Gui MainFrame import */
 import Hangman.Gui.MainFrame;
+import Hangman.Utility.Debug;
 
 /**
  * App.java -  The App class serves as the entry point for the application. When
@@ -59,6 +60,9 @@ public class App {
      *             typically not required in standard executions.
      */
     public static void main(String[] args) {
+        // Initialize the debug utility with the desired mask.
+        Debug.init(Debug.NONE);
+        
         SwingUtilities.invokeLater(() -> {
             MainFrame mf = new MainFrame();
             mf.setVisible(true);
