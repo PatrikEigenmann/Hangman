@@ -20,10 +20,17 @@ Hangman/
 │   ├── run.sh                     ← Unix: launches App class with dependencies  
 │   ├── pack.cmd                   ← Windows: creates executable .jar using manifest  
 │   └── pack.sh                    ← Unix: creates executable .jar using manifest  
-├── src/
+├── src/                           ← Source code directory
 │   ├── App.java                   ← Entry point (default package)  
-│   └── Hangman/Gui/
-│       └── MainFrame.java         ← GUI container for layout, controls, and logging  
+│   └── Hangman/                   ← Project-specific source code
+|       ├── Control/               ← Controller specific source code 
+│       │   └── GamePlay.java      ← GamePlay is the backend class with the game logic
+│       ├── Gui/                   ← View container for layout, controls, and logging
+│       │   └── MainFrame.java     ← Main application window with layout and controls
+│       ├── Model/                 ← Model specific source code
+│       │   └── WordBank.java      ← Data model (runtime database) spiked with words
+│       └── Utility/               ← Utility classes useful across the project
+│           └── Debug.java         ← Debugging utility for logging and error tracking  
 ├── LICENSE                        ← GNU General Public License v3.0  
 ├── README.md                      ← Project overview and usage instructions  
 └── .gitignore                     ← Build hygiene and repo clarity
