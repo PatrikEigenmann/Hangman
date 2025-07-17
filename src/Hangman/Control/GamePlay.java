@@ -221,7 +221,7 @@ public class GamePlay {
         // Set the default word to guess
         String word = Hangman.Model.WordBank.getInstance().getWord();
         setWordToGuess(word);
-        // System.out.println("Word to guess: " + wordToGuess);
+        System.out.println("Word to guess: " + wordToGuess);
 
         Debug.log(Debug.INFO, GamePlay.class.getSimpleName(), "Set the word to guess to: " + wordToGuess);
     }
