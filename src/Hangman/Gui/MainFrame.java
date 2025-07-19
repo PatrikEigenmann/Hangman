@@ -202,7 +202,7 @@ public class MainFrame extends JFrame {
         gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.anchor = GridBagConstraints.WEST;
-        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.fill = GridBagConstraints.NONE;
 
         wordDisplayLabel.setFont(new Font("SansSerif", Font.BOLD, 28));
         wordDisplayLabel.setHorizontalAlignment(SwingConstants.LEFT);
