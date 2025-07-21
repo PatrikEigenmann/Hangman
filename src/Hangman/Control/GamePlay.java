@@ -377,9 +377,11 @@ public class GamePlay {
      */
     public String getVisibleWord() {
         StringBuilder sb = new StringBuilder();
+        //sb.append("<html>");
         for (char c : wordToGuess.toCharArray()) {
             sb.append(guessedLetters.contains(c) ? c : '_').append(' ');
         }
+        //sb.append("</html>");
         return sb.toString().trim();
     }
 

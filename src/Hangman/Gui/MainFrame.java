@@ -195,7 +195,7 @@ public class MainFrame extends JFrame {
         Debug.log(Debug.INFO, MainFrame.class.getSimpleName(), "Setting up layout...");
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-        gbc.insets = new Insets(10, 15, 10, 15);
+        gbc.insets = new Insets(2, 2, 2, 2);
 
         // 📌 LEFT SIDE (Column 0) — Interaction Area
         // Word Display (Top)
